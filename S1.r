@@ -1,4 +1,4 @@
-# Read data
+# Read data now
 dry_season <- read.csv("DataS2.csv")
 moist_season <- read.csv("DataS1.csv")
 dry_season$Grass_cov[dry_season$Grass_cov<30]<-0
